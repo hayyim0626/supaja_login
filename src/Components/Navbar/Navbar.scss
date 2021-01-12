@@ -1,0 +1,80 @@
+@mixin font {
+  font-family: NotoSansKR;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Navbar {
+  height: 90px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #1b1d21;
+  margin-bottom: 80px;
+  padding: 0 240px;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    margin: 3px 200px 5px 0;
+  }
+
+  .groupLecture {
+    margin-right: 40px;
+    border-bottom: 1px solid white;
+    .text {
+      @include font;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      .live {
+        @include font;
+        margin-left: 3px;
+        font-size: 20px;
+        color: #6f63e9;
+      }
+      .line {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+
+  .knowHow {
+    @include font;
+    width: 10%;
+    font-size: 16px;
+    color: #76777a;
+  }
+
+  .usage {
+    @include font;
+    width: 10%;
+    color: #76777a;
+  }
+
+  .signIn {
+    @include font;
+    width: 10%;
+    font-size: 16px;
+    color: #76777a;
+  }
+
+  .login {
+    @include font;
+    width: 10%;
+    font-size: 16px;
+    color: #76777a;
+  }
+
+  .freeExperience {
+    @include font;
+    width: 12%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #76777a;
+  }
+}
