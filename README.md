@@ -13,7 +13,7 @@
 Navbar와 Footer의 경우, 로그인 페이지뿐만 아니라 다른 페이지에서도 재사용되기 때문에 따로 Components라는 폴더에 작업했습니다.<br>
 그 이후, 로그인 페이지는 Pages 폴더에서 작업했습니다.<br>
 각각의 컴포넌트는 App.js 파일에 모두 import하는 방식으로 구현했습니다. <br>
-****
+
 <img width="175" alt="20210113_235308" src="https://user-images.githubusercontent.com/68314696/104468195-836bd800-55fa-11eb-90fc-aba4a5aadbbe.png">
 ****
 
@@ -21,6 +21,6 @@ Navbar와 Footer의 경우, 로그인 페이지뿐만 아니라 다른 페이지
 초기세팅이 끝난 후, 각 컴포넌트별 레이아웃을 구현했습니다.<br>
 Navbar-Footer-Login 순으로 레이아웃을 구현했습니다.<br>
 완성된 레이아웃은 다음과 같습니다.
-****
+
 <img width="960" alt="20210113_235607" src="https://user-images.githubusercontent.com/68314696/104468554-f07f6d80-55fa-11eb-8da1-c029f8d682d3.png">
 ****
