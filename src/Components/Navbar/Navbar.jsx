@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="usage">이용방법</div>
       <div className="signIn">회원가입</div>
       <div className="login">로그인</div>
-      <div className="freeExperience">무료체험 신청</div>
+      <button className="freeExperience">무료체험 신청</button>
     </header>
   );
 }

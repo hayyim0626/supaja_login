@@ -1,0 +1,75 @@
+@mixin font {
+  font-family: NotoSansKR;
+  font-weight: bold;
+  color: #18191b;
+}
+
+.Login {
+  width: 340px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .studentLogin {
+    @include font;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .email {
+    .emailText {
+      @include font;
+      font-size: 14px;
+      color: #18191b;
+      margin-bottom: 5px;
+    }
+    .emailInput {
+      width: 400px;
+      height: 40px;
+      margin-bottom: 15px;
+    }
+    .emailInput:focus {
+      outline: 1px solid #6f63e9;
+    }
+  }
+  .password {
+    .passwordText {
+      @include font;
+      font-size: 14px;
+      color: #18191b;
+      margin-bottom: 5px;
+    }
+    .passwordInput {
+      width: 400px;
+      height: 40px;
+      margin-bottom: 25px;
+    }
+    .passwordInput:focus {
+      outline: 1px solid #6f63e9;
+    }
+  }
+  .loginBtn {
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #6f63e9;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  .signUp {
+    .signUpText {
+      @include font;
+      font-size: 14px;
+      color: #76777a;
+    }
+    .signUpBtn {
+      @include font;
+      margin-left: 5px;
+      font-size: 14px;
+      color: #6f63e9;
+      cursor: pointer;
+    }
+  }
+}
