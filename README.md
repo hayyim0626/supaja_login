@@ -15,7 +15,6 @@ Navbar와 Footer의 경우, 로그인 페이지뿐만 아니라 다른 페이지
 각각의 컴포넌트는 App.js 파일에 모두 import하는 방식으로 구현했습니다. <br>
 
 <img width="175" alt="20210113_235308" src="https://user-images.githubusercontent.com/68314696/104468195-836bd800-55fa-11eb-90fc-aba4a5aadbbe.png">
-****
 
 ## 레이아웃 구현
 초기세팅이 끝난 후, 각 컴포넌트별 레이아웃을 구현했습니다.<br>
@@ -23,4 +22,8 @@ Navbar-Footer-Login 순으로 레이아웃을 구현했습니다.<br>
 완성된 레이아웃은 다음과 같습니다.
 
 <img width="960" alt="20210113_235607" src="https://user-images.githubusercontent.com/68314696/104468554-f07f6d80-55fa-11eb-8da1-c029f8d682d3.png">
-****
+
+## 로그인 로직 구현
+로그인 로직의 경우, Notion페이지의 조건에 따라 구현했습니다.<br>
+API통신을 위해 fetch()함수를 사용했으며, 조건에 따라 이메일이 존재하지 않는 경우 alert창을 통해 받아온 메세지를 나타냈습니다. 비밀번호가 일치하지 않는 경우에도 동일하게 구현했습니다.<br>
+<img width="960" alt="20210114_000750" src="https://user-images.githubusercontent.com/68314696/104470041-94b5e400-55fc-11eb-9d5f-741d54ef3afe.png">
