@@ -26,5 +26,5 @@ Navbar-Footer-Login 순으로 레이아웃을 구현했습니다.<br>
 ## 로그인 로직 구현
 로그인 로직의 경우, Notion페이지의 조건에 따라 구현했습니다.<br>
 API통신을 위해 fetch()함수를 사용했으며, 조건에 따라 이메일이 존재하지 않는 경우 alert창을 통해 받아온 메세지를 나타냈습니다. 비밀번호가 일치하지 않는 경우에도 동일하게 구현했습니다.<br>
-<img width="960" alt="20210114_000750" src="https://user-images.githubusercontent.com/68314696/104470041-94b5e400-55fc-11eb-9d5f-741d54ef3afe.png"> <>
+<img width="960" alt="20210114_000750" src="https://user-images.githubusercontent.com/68314696/104470041-94b5e400-55fc-11eb-9d5f-741d54ef3afe.png"> <br>
 로그인이 성공했을 경우, alert창에 "로그인 성공!"이라는 메세지가 뜨고, 받은 토큰을 로컬스토리지에 저장하고 다른 페이지로 넘어가도록 구현했습니다.
