@@ -3,17 +3,23 @@
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+  &:hover {
+    color: #6f63e9;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+  }
 }
 
 .Navbar {
   height: 90px;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #1b1d21;
   margin-bottom: 80px;
   padding: 0 240px;
   display: flex;
   align-items: center;
-
+  position: fixed;
   .logo {
     color: white;
     font-size: 30px;
@@ -73,7 +79,6 @@
     @include font;
     width: 12%;
     height: 30px;
-    margin-top: 10px;
     border-radius: 8px;
     background-color: #000000;
     color: #76777a;
