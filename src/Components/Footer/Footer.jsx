@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="line"></div>
+      <div className="line" />
       <div className="rights">© All Rights Reserved By Supaja</div>
     </div>
   );
