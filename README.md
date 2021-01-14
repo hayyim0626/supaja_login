@@ -14,7 +14,7 @@ Navbar와 Footer의 경우, 로그인 페이지뿐만 아니라 다른 페이지
 그 이후, 로그인 페이지와 메인 페이지는 Pages 폴더에서 작업했습니다.<br>
 각각의 컴포넌트는 Routes.js 파일에서 switching하는 방식으로 구현했습니다. <br>
 
-<img width="175" alt="20210113_235308" src="https://user-images.githubusercontent.com/68314696/104468195-836bd800-55fa-11eb-90fc-aba4a5aadbbe.png">
+<img width="258" alt="20210114_220605" src="https://user-images.githubusercontent.com/68314696/104594623-c094a080-56b4-11eb-9aa6-cd4b9d04f323.png">
 
 ## 레이아웃 구현
 초기세팅이 끝난 후, 각 컴포넌트별 레이아웃을 구현했습니다.<br>
